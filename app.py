@@ -8,7 +8,3 @@ def hello_world():
 @app.route('/health')
 def health():
     return 'Server is up and running'
-
-@app.route('/github-webhook/')
-def health():
-    return 'Server is up and running'
